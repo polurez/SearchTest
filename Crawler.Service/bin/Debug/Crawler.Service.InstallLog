@@ -1,0 +1,13 @@
+﻿Выполняется установка сборки 'C:\Users\Igor\Documents\Visual Studio 2015\Projects\SearchTest\Crawler.Service\bin\Debug\Crawler.Service.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\Igor\Documents\Visual Studio 2015\Projects\SearchTest\Crawler.Service\bin\Debug\Crawler.Service.InstallLog
+   assemblypath = C:\Users\Igor\Documents\Visual Studio 2015\Projects\SearchTest\Crawler.Service\bin\Debug\Crawler.Service.exe
+Устанавливается служба ServiceTest...
+Служба ServiceTest успешно установлена.
+Создается исходный EventLog ServiceTest в журнале Application...
+Выполняется фиксация сборки 'C:\Users\Igor\Documents\Visual Studio 2015\Projects\SearchTest\Crawler.Service\bin\Debug\Crawler.Service.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\Igor\Documents\Visual Studio 2015\Projects\SearchTest\Crawler.Service\bin\Debug\Crawler.Service.InstallLog
+   assemblypath = C:\Users\Igor\Documents\Visual Studio 2015\Projects\SearchTest\Crawler.Service\bin\Debug\Crawler.Service.exe

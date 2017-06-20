@@ -1,0 +1,257 @@
+﻿#resultStatus {
+    line-height: 3.19vw;
+}
+
+input,
+select,
+textarea {
+    max-width: 2000px !important;
+}
+
+.navbar-inverse {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.icon-bar {
+    color: #000000 !important;
+}
+
+.navbar-header {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.navbar-brand {
+    color: #000000 !important;
+    font-size: 1.5em;
+}
+
+    .navbar-brand:hover {
+        color: #8bc34a !important;
+    }
+
+.header-titles {
+    font-family: Raleway;
+    letter-spacing: 2px;
+    padding: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5em;
+    line-height:1em;
+    color: #ffffff;
+}
+
+.navbar-nav > li > a {
+    color: #000000 !important;
+}
+
+    .navbar-nav > li > a:hover {
+        color: #8bc34a !important;
+    }
+
+    #search{
+        border:none;
+        input[type='text']:hover{color:red;}
+    }
+
+.before-wrapper {
+    background: #8bc34a;
+}
+.shadow {
+    background: #ffffff ; 
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7); 
+    padding: 0.73209vw;
+   }
+.header-wrapper {
+    background:linear-gradient(to bottom,#8BC34A, #c5e1a4);
+    overflow: hidden;
+    padding-top: 21.148vh;
+    padding-bottom:32vh;
+    color: #ffffff;
+    margin-left: -15px;
+    
+}
+
+.header-centre {
+    text-align: center;
+}
+
+.header-sub-title {
+    font-size: 50%;
+    padding-left: 15px;
+}
+
+
+body {
+    line-height: 2.1962vw;
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+}
+
+input [type="text"]:focus {
+    outline-width: 0px !important;
+}
+
+.form-control {
+    z-index: 2;
+    color: #000000;
+    border-radius: 3px 0 0 3px;
+    height: 3.075vw;
+    padding: 0.73209vw 1.0981vw;
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    margin-bottom: 0;
+}
+
+.btn:hover {
+    background-color: #6f9c3b !important;
+    border-color: #6f9c3b !important;
+    color: #ffffff !important;
+}
+
+.btn:active {
+    background-color: #53752c !important;
+    border-color: #53752c !important;
+    color: #ffffff !important;
+}
+
+.btn {
+    font-size:1.04vw;
+    padding: 0.73209vw 1.0981vw;
+    margin-left: -1px;
+    border-radius: 3px;
+    background-color: #8bc34a;
+    border-color: #8bc34a;
+    color: #ffffff !important;
+}
+
+.input-url {
+    text-align: left !important;
+}
+
+
+
+@media (min-width: 768px) {
+    .control-label {
+        text-align: right;
+    }
+}
+
+button {
+    outline: none !important;
+    background-color: #000000 !important;
+}
+
+    button:hover {
+        background-color: #333333 !important;
+    }
+
+.vcenter {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+input, textarea {
+    outline: none !important;
+    color: #000000 !important;
+}
+
+.input-group {
+    float: left;
+    text-align: center;
+    display: table;
+}
+
+@media (min-width: 768px) {
+    .header-wrapper .input-group > .form-control, .header-wrapper .input-group > .header-wrapper .input-group > .input-group-btn > .btn {
+        height: 4.759vw;
+    }
+}
+.col-xs-2 .col-xs-9{
+
+    padding-left:1.0981vw!important;
+    padding-right:1.0981vw!important;
+}
+hr{
+    margin-top:1.4641vw!important;
+    margin-bottom:1.4641vw!important;
+}
+.result {
+    border: 1px solid !important;
+    border-color: #8bc34a !important;
+}
+
+
+.green-link {
+    
+    overflow: hidden !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tdl{
+    line-height:8vw;
+
+}
+img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    padding-bottom:20px;
+}
+
+.link-description {
+    font-size: 1.1vw;
+    height: 4.5vw !important;
+    line-height: 2vw !important;
+
+}
+
+.title-link {
+    font-size: 1.5vw;
+    font-weight: bold;
+    line-height: 2vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.label-message {
+    padding-left: 15px !important;
+}
+.btn-image{
+    height: 4.759vw;
+ 
+}
+@media (min-width: 768px) {
+    .header-wrapper .input-group-btn .btn {
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 4.759vw;
+    }
+}
+
+.header-sidebar {
+    margin-top: 3.2943vw;
+    padding-bottom: 1.0981vw;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

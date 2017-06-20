@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "~/Views/Shared/MyLayout.cshtml";
+}
+
+
+        <div class="before-wrapper-main ">
+
+            <div class="header-wrapper">
+
+                <div class="container header-centre">
+                    <div class="header-titles">
+                        Search system
+                        <div class="header-sub-title"><p>Search system helps to find exactly what you wanted </p></div>
+                    </div>
+                </div>
+                <div class="container header-centre">
+                    <div class="header-sidebar row">
+                        <form action="/Home/Find" method="post" onsubmit="return validate()">
+                            <div class="input-group col-sm-offset-1 col-xs-12 col-sm-10">
+                                <input id="search" name="search" type="text" class="form-control " placeholder="Search..." />
+                                <span class="input-group-btn ">
+                                    <input type="image" value="Search" src="~/Content/Images/logo.png" class="btn-image shadow" />
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+

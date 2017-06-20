@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SearchSystem" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Igor\\documents\\visual\ studio\ 2015\\Projects\\SearchTest\\SearchTest\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Igor\\documents\\visual\ studio\ 2015\\Projects\\SearchTest\\SearchTest\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Crawler.DAL.Context.SiteContext-Web.config Connection String" description="" value="Crawler.DAL.Context.SiteContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Igor\\documents\\visual\ studio\ 2015\\Projects\\SearchTest\\SearchTest\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Crawler.DAL.Context.SiteContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." value="Data Source=IGOR-ПК;Initial Catalog=Test;Trusted_Connection=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Igor\\documents\\visual\ studio\ 2015\\Projects\\SearchTest\\SearchTest\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

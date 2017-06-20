@@ -1,0 +1,13 @@
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\bin\Release\Crawler.DAL.dll.config
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\bin\Release\Crawler.DAL.dll
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\bin\Release\Crawler.DAL.pdb
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\bin\Release\EntityFramework.dll
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\bin\Release\HtmlAgilityPack.dll
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\bin\Release\EntityFramework.xml
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\bin\Release\HtmlAgilityPack.pdb
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\bin\Release\HtmlAgilityPack.xml
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\obj\Release\Crawler.DAL.dll
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\obj\Release\Crawler.DAL.pdb
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.DAL\obj\Release\Crawler.DAL.csprojResolveAssemblyReference.cache

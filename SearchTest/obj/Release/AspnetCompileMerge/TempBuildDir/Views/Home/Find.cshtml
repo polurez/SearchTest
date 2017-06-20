@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "~/Views/Shared/MyLayout.cshtml";
+}
+
+<div class="before-wrapper">
+
+
+    <div class="container header-centre">
+        <div class="header-titles">
+            <h1>Search results</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container header-centre ">
+    <div class="header-sidebar">
+
+        <form action="/Home/Find" method="post" role="search" onsubmit="return validate()">
+            <div class="input-group">
+                <input id="search" name="search" type="text" class="form-control result" autocomplete="off" autofocus />
+                <span class="input-group-btn">
+                    <input type="submit" value="Search" class="btn" />
+                </span>
+            </div>
+        </form>
+
+    </div>
+</div>
+<hr />
+
+
+<div class="container  main-section">
+    <div class="row">
+        <div class="col-md-12">
+            @for (var i = 0; i < ViewBag.Links.Count; i++)
+            {
+                <p><img src="@ViewBag.Images[i]" alt="IMAGE"></p>
+
+                    <p><span style="font-size: medium; font-weight: bold; "><a href="@ViewBag.Links[i]">@ViewBag.Titles[i]</a></span> </p>
+                    <p><span style="color: green;">@ViewBag.Links[i]</span></p>
+                            <p><span style="font-size: small;">@ViewBag.Descriptions[i]</span></p>
+
+            }
+        </div>
+    </div>
+</div>

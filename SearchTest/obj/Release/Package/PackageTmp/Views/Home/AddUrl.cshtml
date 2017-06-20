@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = "~/Views/Shared/MyLayout.cshtml";
+}
+
+<div class="before-wrapper">
+
+
+    <div class="container ">
+        <div class="header-titles">
+            Add new site 
+        </div>
+    </div>
+</div>
+<div class="before-wrapper-main">
+    <div class="container col-lg-12">
+        <div class="header-sub-title"><p><h5>Only authorized users can add a link</h5></p></div></div>
+    <div class="col-md-12 container">
+
+   
+        <form action="/Home/AddUrl" method="post" class="form-horizontal">
+            <div class="form-group ">
+                <label class="col-xs-12 col-sm-2 control-label"> Url</label>
+                <div class="col-sm-4 col-xs-8">
+                    <input id="url" name="url" type="url" class="form-control" placeholder="https://stackoverflow.com/" />
+                </div>
+
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <label>@ViewBag.Message</label>
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Add" class="btn" />
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+
+
+
+

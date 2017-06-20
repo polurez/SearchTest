@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search system</title>
+    @Styles.Render("~/Content/bootstrap.css")
+    @Styles.Render("~/Content/bootstrap.min.css")
+    @Styles.Render("~/Content/dopstyle.css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/Content/dopstyle.css" rel="stylesheet" media="screen">
+
+    <script type="text/javascript">
+
+
+        function validate() {
+            var temp = document.getElementById('search').value;
+
+            if (temp == '') {
+
+                return false;
+            }
+
+            return true;
+        }
+
+
+    </script>
+</head>
+<body>
+
+        <div class="navbar-inverse ">
+            <div class="container col-lg-12">
+               
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+             
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li>@Html.ActionLink("Add new site", "AddUrl", "Home")</li>
+
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+
+        @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
