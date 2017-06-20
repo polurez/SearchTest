@@ -154,7 +154,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/07/2017 16:02:51</publishTime>
     </File>
     <File Include="Content/dopstyle.css">
-      <publishTime>06/20/2017 11:03:55</publishTime>
+      <publishTime>06/20/2017 13:46:35</publishTime>
     </File>
     <File Include="Content/Images/background.jpg">
       <publishTime>06/15/2017 15:26:55</publishTime>
@@ -286,10 +286,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/30/2017 11:33:55</publishTime>
     </File>
     <File Include="Views/Home/AddUrl.cshtml">
-      <publishTime>06/19/2017 18:29:33</publishTime>
+      <publishTime>06/20/2017 13:02:08</publishTime>
     </File>
     <File Include="Views/Home/Find.cshtml">
-      <publishTime>06/20/2017 12:23:27</publishTime>
+      <publishTime>06/20/2017 13:27:10</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>06/19/2017 18:52:05</publishTime>
