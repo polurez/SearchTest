@@ -158,3 +158,5 @@ C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\SearchTest\bin\Ht
 C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\SearchTest\obj\Debug\Crawler.WEB.csprojResolveAssemblyReference.cache
 C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\SearchTest\obj\Debug\SearchTest.dll
 C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\SearchTest\obj\Debug\SearchTest.pdb
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\SearchTest\bin\AutoMapper.dll
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\SearchTest\bin\AutoMapper.xml

@@ -2,6 +2,9 @@
 using Crawler.BLL.Interfaces;
 using Crawler.DAL.Interfaces;
 using Crawler.DAL.UoW;
+using Crawler.BLL.DTO;
+using Crawler.DAL.Entities;
+using AutoMapper;
 
 namespace Crawler.BLL.Implementation
 {
@@ -22,24 +25,11 @@ namespace Crawler.BLL.Implementation
             return "Link : " + url + " successfuly added";
         }
 
-        public Dictionary<string, List<string>> Find(string searchString)
+        public List<SiteDTO> Find(string searchString)
         {
-            var temp = _unitOfWork.Sites.Get(searchString);
-
-            var lists = new Dictionary<string, List<string>>()
-            { {"Link", new List<string>() },
-              {"Title", new List<string>() },
-              {"Description", new List<string>() },
-              {"Image", new List<string>() } };
-
-            foreach (var site in temp)
-            {
-                lists["Link"].Add(site.Link);
-                lists["Title"].Add(site.Title);
-                lists["Description"].Add(site.Description);
-                lists["Image"].Add(site.Image);
-            }           
-            return lists;
+            
+            Mapper.Initialize(cfg => cfg.CreateMap<Site, SiteDTO>());
+            return Mapper.Map<List<Site>, List<SiteDTO>>(_unitOfWork.Sites.Get(searchString));
         }
 
       

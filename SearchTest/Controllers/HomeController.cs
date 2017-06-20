@@ -1,6 +1,11 @@
 ﻿using System.Web.Mvc;
 using Crawler.BLL.Interfaces;
 using Microsoft.AspNet.Identity;
+using Crawler.BLL.DTO;
+using System.Collections.Generic;
+using AutoMapper;
+using SearchTest.Models;
+using System;
 
 namespace SearchTest.Controllers
 {
@@ -20,14 +25,9 @@ namespace SearchTest.Controllers
         [HttpPost]
         public ActionResult Find(string search)
         {
-            var lists = _searcher.Find(search);
-            ViewBag.List = lists;
-            ViewBag.Links = lists["Link"];
-            ViewBag.Titles = lists["Title"];
-            ViewBag.Descriptions = lists["Description"];
-            ViewBag.Images = lists["Image"];
-            ViewBag.Search = search;
-            return View();
+            var sites = _searcher.Find(search);
+            
+            return View(sites);
         }
         public ActionResult AddUrl(string url)
         {            

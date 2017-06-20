@@ -1,4 +1,6 @@
-﻿@{
+﻿@model  List<Crawler.BLL.DTO.SiteDTO>
+
+@{
     Layout = "~/Views/Shared/MyLayout.cshtml";
 }
 
@@ -30,8 +32,8 @@
                     </form>
                 </div>
                 <div id="resultStatus">
-                    @if (ViewBag.Links.Count > 0)
-                    {<span>Results : @ViewBag.Links.Count sites</span>}
+                    @if (Model.Count > 0)
+                    {<span>Results : @Model.Count sites</span>}
                     else
                     {<p>Sorry, no results were found.</p> }
                 </div>
@@ -39,18 +41,18 @@
         </div>
     </div>
     <hr/>
-    @for (var i = 0; i < ViewBag.Links.Count; i++)
+    @foreach(var site in Model)
     {
         <div class="row ">
             <div class="col-xs-2  vcenter">
-                <img src="@ViewBag.Images[i]" alt="Image"  >
+                <img src="@site.Image" alt="Image"  >
             </div>
             <div class="col-xs-9 tdl  vcenter">
 
-                <div class="title-link"><a href="@ViewBag.Links[i]">@ViewBag.Titles[i]</a></div>
+                <div class="title-link"><a href="@site.Link">@site.Title</a></div>
                 <div class="link-description">
-                    <div class="green-link"><span style="color: green;  ">@ViewBag.Links[i]</span></div>
-                    <div class="description">@ViewBag.Descriptions[i]</div>
+                    <div class="green-link"><span style="color: green;  ">@site.Link</span></div>
+                    <div class="description">@site.Description</div>
                 </div>
                 
             </div>

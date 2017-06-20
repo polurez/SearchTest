@@ -45,3 +45,5 @@ C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.BLL\bin\D
 C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.BLL\obj\Debug\Crawler.BLL.csprojResolveAssemblyReference.cache
 C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.BLL\obj\Debug\Crawler.BLL.dll
 C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.BLL\obj\Debug\Crawler.BLL.pdb
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.BLL\bin\Debug\AutoMapper.dll
+C:\Users\Igor\documents\visual studio 2015\Projects\SearchTest\Crawler.BLL\bin\Debug\AutoMapper.xml
