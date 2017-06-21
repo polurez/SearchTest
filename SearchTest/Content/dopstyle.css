@@ -1,7 +1,10 @@
 ﻿#resultStatus {
     line-height: 3.19vw;
 }
-
+.numberic > a{
+    margin-right:0.7vw!important;
+    font-size: 1.5vw!important;
+}
 input,
 select,
 textarea {

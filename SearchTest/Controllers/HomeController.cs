@@ -26,8 +26,9 @@ namespace SearchTest.Controllers
         public ActionResult Find(string search)
         {
             var sites = _searcher.Find(search);
-            
-            return View(sites);
+            ViewBag.Sites = sites;
+            ViewBag.Search = search;            
+            return View();
         }
         public ActionResult AddUrl(string url)
         {            
